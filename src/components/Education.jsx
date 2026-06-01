@@ -23,7 +23,7 @@ export default function Education() {
               ML algorithms, neural networks, NLP, computer vision, and real-world AI application development.
             </p>
             <div className="flex flex-wrap gap-2">
-              {['B.Voc AIML', 'ML', 'Neural Networks'].map((tag, i) => (
+              {['B.Voc AIDS', 'ML', 'Neural Networks'].map((tag, i) => (
                 <span key={i} className="font-mono text-xs bg-bg border border-border text-muted px-2 py-0.5 rounded">
                   {tag}
                 </span>

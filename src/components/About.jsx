@@ -55,7 +55,7 @@ export default function About() {
                       <path d="M12 2a7 7 0 0 1 7 7c0 4-3 6-4 8H9c-1-2-4-4-4-8a7 7 0 0 1 7-7z"/><path d="M9 17h6M9.5 21h5"/>
                     </svg>
                   ),
-                  title: 'AI & Machine Learning', desc: 'B.Voc AIML · Intel AI Certified', badge: 'Pursuing', color: 'accent3',
+                  title: 'AI & Machine Learning', desc: 'B.Voc AIDS · Intel AI Certified', badge: 'Pursuing', color: 'accent3',
                 },
               ].map((item, i) => (
                 <div
@@ -100,7 +100,7 @@ export default function About() {
               <div className="tl-container">
                 <div className="tl-line"></div>
                 {[
-                  { date: '2025 — Ongoing', title: 'B.Voc AIML · Nexcore Alliance', desc: 'Expanding into ML, neural networks, computer vision, and NLP while shipping full-stack projects.', color: 'accent2', purple: true },
+                  { date: '2025 — Ongoing', title: 'B.Voc AIDS · Nexcore Alliance', desc: 'Expanding into ML, neural networks, computer vision, and NLP while shipping full-stack projects.', color: 'accent2', purple: true },
                   { date: 'Aug 2025 — Ongoing', title: 'Full Stack & MERN Development', desc: 'Built BookMyShow clone, travel website, portfolio clones — deepening React, Node, and Express skills.', color: 'accent' },
                   { date: 'Nov 2025 — Present', title: 'UI/UX Design with Figma', desc: 'Designed mobile apps, dashboards, and e-commerce admin panels — mastering prototyping and design systems.', color: 'accent2' },
                 ].map((item, i) => (

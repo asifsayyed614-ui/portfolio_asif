@@ -92,7 +92,7 @@ export default function Hero() {
                 <div className="space-y-2.5">
                   <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
                     <span className="text-sm flex-shrink-0">🎓</span>
-                    <span className="font-body text-xs text-muted">B.Voc AIML · Nexcore Alliance</span>
+                    <span className="font-body text-xs text-muted">B.Voc AIDS · Nexcore Alliance</span>
                   </div>
                   <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
                     <span className="text-sm flex-shrink-0">🚀</span>
@@ -155,7 +155,7 @@ export default function Hero() {
             </div>
 
             <p className="reveal text-muted font-body text-sm sm:text-base leading-relaxed mb-8 max-w-lg" style={{ transitionDelay: '0.3s' }}>
-              Asif Sayyed — developer and designer pursuing <span className="text-accent font-600">B.Voc AIML</span> at Nexcore Alliance.
+              Asif Sayyed — developer and designer pursuing <span className="text-accent font-600">B.Voc AIDS</span> at Nexcore Alliance.
               Building modern web experiences with the <span className="text-accent2 font-600">MERN stack</span> and crafting beautiful
               interfaces with <span className="text-accent font-600">Figma</span>.
             </p>
