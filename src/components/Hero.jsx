@@ -63,7 +63,73 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-16 w-full relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          <div>
+          <div className="reveal-right flex justify-center lg:justify-end order-first lg:order-last mt-0 lg:mt-0" style={{ transitionDelay: '0.3s' }}>
+            <div className="relative">
+              <div className="hero-rings hero-ring absolute inset-0 -m-8 hidden lg:block"></div>
+              <div
+                className="hero-rings hero-ring absolute inset-0 -m-16 opacity-50 hidden lg:block"
+                style={{ animationDirection: 'reverse', animationDuration: '40s' }}
+              ></div>
+
+              <div className="relative neon-border rounded-2xl p-5 sm:p-6 w-72 sm:w-80 float-badge">
+                <div className="absolute -top-3 -right-3 bg-accent text-bg font-mono text-xs font-700 px-3 py-1 rounded-full">
+                  MH, India
+                </div>
+
+                <div className="w-44 h-44 sm:w-48 sm:h-48 rounded-full border-2 border-accent/40 overflow-hidden mb-4 mx-auto ring-4 ring-accent/10 flex items-center justify-center">
+                  <img
+                    src="/asif.png"
+                    alt="Asif Sayyed"
+                    className="w-full h-full object-cover object-center mt-0"
+                  />
+                </div>
+
+                <div className="text-center mb-5">
+                  <div className="font-display font-700 text-lg sm:text-xl text-bright mb-1">Asif Sayyed</div>
+                  <div className="font-mono text-xs text-accent tracking-widest">Full Stack Dev · UI Designer</div>
+                </div>
+
+                <div className="space-y-2.5">
+                  <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
+                    <span className="text-sm flex-shrink-0">🎓</span>
+                    <span className="font-body text-xs text-muted">B.Voc AIML · Nexcore Alliance</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
+                    <span className="text-sm flex-shrink-0">🚀</span>
+                    <span className="font-body text-xs text-muted">MERN Stack · Figma · Next.js</span>
+                  </div>
+                  <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
+                    <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse flex-shrink-0"></span>
+                    <span className="font-body text-xs text-muted">Open to Opportunities</span>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="hero-float-chips absolute -left-10 top-1/4 bg-surface border border-border rounded-full px-3 py-1.5 items-center gap-2 animate-float hidden lg:flex"
+                style={{ animationDelay: '0.5s' }}
+              >
+                <span className="text-xs">⚛️</span>
+                <span className="font-mono text-xs text-accent2">React</span>
+              </div>
+              <div
+                className="hero-float-chips absolute -right-8 bottom-1/4 bg-surface border border-border rounded-full px-3 py-1.5 items-center gap-2 animate-float hidden lg:flex"
+                style={{ animationDelay: '1.5s' }}
+              >
+                <span className="text-xs">🎨</span>
+                <span className="font-mono text-xs text-accent">Figma</span>
+              </div>
+              <div
+                className="hero-float-chips absolute -left-6 bottom-10 bg-surface border border-border rounded-full px-3 py-1.5 items-center gap-2 animate-float hidden lg:flex"
+                style={{ animationDelay: '2.5s' }}
+              >
+                <span className="text-xs">🟢</span>
+                <span className="font-mono text-xs text-green-400">Node</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="order-last lg:order-first">
             <div className="reveal inline-flex items-center gap-2 bg-surface border border-border rounded-full px-4 py-1.5 mb-6">
               <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
               <span className="font-mono text-xs text-muted tracking-widest uppercase">Available for work</span>
@@ -139,72 +205,6 @@ export default function Hero() {
                   9<span className="text-accent3 text-lg">×</span>
                 </div>
                 <div className="font-mono text-xs text-muted tracking-widest uppercase mt-1">AI Certs</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="reveal-right flex justify-center lg:justify-end mt-8 lg:mt-0" style={{ transitionDelay: '0.3s' }}>
-            <div className="relative">
-              <div className="hero-rings hero-ring absolute inset-0 -m-8 hidden lg:block"></div>
-              <div
-                className="hero-rings hero-ring absolute inset-0 -m-16 opacity-50 hidden lg:block"
-                style={{ animationDirection: 'reverse', animationDuration: '40s' }}
-              ></div>
-
-              <div className="relative neon-border rounded-2xl p-5 sm:p-6 w-72 sm:w-80 float-badge">
-                <div className="absolute -top-3 -right-3 bg-accent text-bg font-mono text-xs font-700 px-3 py-1 rounded-full">
-                  MH, India
-                </div>
-
-                <div className="w-44 h-44 sm:w-48 sm:h-48 rounded-full border-2 border-accent/40 overflow-hidden mb-4 mx-auto ring-4 ring-accent/10 flex items-center justify-center">
-                  <img
-                    src="/asif.png"
-                    alt="Asif Sayyed"
-                    className="w-full h-full object-cover object-center mt-0"
-                  />
-                </div>
-
-                <div className="text-center mb-5">
-                  <div className="font-display font-700 text-lg sm:text-xl text-bright mb-1">Asif Sayyed</div>
-                  <div className="font-mono text-xs text-accent tracking-widest">Full Stack Dev · UI Designer</div>
-                </div>
-
-                <div className="space-y-2.5">
-                  <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
-                    <span className="text-sm flex-shrink-0">🎓</span>
-                    <span className="font-body text-xs text-muted">B.Voc AIML · Nexcore Alliance</span>
-                  </div>
-                  <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
-                    <span className="text-sm flex-shrink-0">🚀</span>
-                    <span className="font-body text-xs text-muted">MERN Stack · Figma · Next.js</span>
-                  </div>
-                  <div className="flex items-center gap-3 bg-bg/50 rounded-lg px-3 py-2">
-                    <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse flex-shrink-0"></span>
-                    <span className="font-body text-xs text-muted">Open to Opportunities</span>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="hero-float-chips absolute -left-10 top-1/4 bg-surface border border-border rounded-full px-3 py-1.5 items-center gap-2 animate-float hidden lg:flex"
-                style={{ animationDelay: '0.5s' }}
-              >
-                <span className="text-xs">⚛️</span>
-                <span className="font-mono text-xs text-accent2">React</span>
-              </div>
-              <div
-                className="hero-float-chips absolute -right-8 bottom-1/4 bg-surface border border-border rounded-full px-3 py-1.5 items-center gap-2 animate-float hidden lg:flex"
-                style={{ animationDelay: '1.5s' }}
-              >
-                <span className="text-xs">🎨</span>
-                <span className="font-mono text-xs text-accent">Figma</span>
-              </div>
-              <div
-                className="hero-float-chips absolute -left-6 bottom-10 bg-surface border border-border rounded-full px-3 py-1.5 items-center gap-2 animate-float hidden lg:flex"
-                style={{ animationDelay: '2.5s' }}
-              >
-                <span className="text-xs">🟢</span>
-                <span className="font-mono text-xs text-green-400">Node</span>
               </div>
             </div>
           </div>
